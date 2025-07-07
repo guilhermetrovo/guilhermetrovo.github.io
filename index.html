@@ -1,6 +1,24 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <h1>Hello World</h1>
+<html lang="en-CA">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+        <title>Hello, my name is Gui.</title>
+
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="hello/hello.css" />
+    </head>
+
+    <body onload="onLoad();">
+        <header>
+            <button id="themeBtn" onclick="swapColorScheme(this);"></button>
+        </header>
+
+        <main>
+            <h1>Hello World</h1>
+        </main>
+
+        <script type="text/javascript" src="hello/hello.js"></script>
     </body>
 </html>
